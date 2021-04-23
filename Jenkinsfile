@@ -1,8 +1,9 @@
 pipeline{
-
+  agent any
+  
 stages{
 
-stage{
+stage('Master'){
 
 steps{
 echo 'master branch'
